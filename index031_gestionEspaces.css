@@ -1,0 +1,17 @@
+.p1{
+    line-height: 20px;
+}
+
+.p2{
+    line-height: 40px;
+}
+
+.p3{
+    letter-spacing: 2px;
+    word-spacing: 10px;
+}
+
+.p4{
+    letter-spacing: -20px;
+    text-align: right;
+}

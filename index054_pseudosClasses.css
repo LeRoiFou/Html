@@ -1,0 +1,38 @@
+body{
+	font-family: 'Akaya Telivigala', cursive;
+}
+
+/* Changement de couleur lors du passage de la souris sur l'élément html h1 */
+h1:hover{
+	color: orange;
+}
+
+/* Couleur du lien avant visite du site */
+a:link{
+	color: blue;
+}
+
+/* Couleur du lien après visite du site */
+a:visited{
+	color: green;
+}
+
+/* S'applique sur le 1er élément du div (bof...) */
+p:first-child{
+	color:darkmagenta
+}
+
+/* S'applique sur le dernier élément du div (bof...) */
+p:last-child{
+	color: chartreuse;
+}
+
+/* Tous les sélecteurs html p en ligne paire sont affectés */
+p:nth-child(even){
+	font-weight: bold;
+}
+
+/* Concerne le 3ème enfant : de l'élément body / de l'élément div (compliqué...)*/
+p:nth-child(3){
+	font-style: italic;
+}

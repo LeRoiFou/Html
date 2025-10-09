@@ -1,0 +1,29 @@
+.div1{
+    height: 400px;
+    width: 500px;
+    background-color: #088;
+    border: 20px ridge black;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px red;
+}
+
+.p1{
+    height: 100px;
+    width: 200px;
+    background-color: blue;
+    border-top-width: 2px;
+    border-top-style: dashed;
+    border-top-color: yellow;
+    box-shadow: -4px -3px 7px black inset;
+}
+
+.p2{
+    height: 100px;
+    width: 200px;
+    background-color: blue;
+    border-width: 2px;
+    border-style: inset;
+    border-color: yellow;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}

@@ -1,0 +1,31 @@
+/* Les 2 premiers paragraphes se comportent comme des éléments de type inline */
+.p1{
+    display: inline;
+    border: 1px solid black;
+}
+
+/* Les mots compris dans la balise 'span' se comportent comment des éléments
+de type block */
+span{
+    display: block;
+    border: 1px solid black;
+}
+
+/* Le 3ème et le 4ème paragraphe occupent partiellement une ligne, ils se
+comportent comme des éléments de type inline */
+.p3{
+    display: inline-block;
+    border: 1px solid black;
+    width: 65%;
+}
+
+.p4{
+    display: inline-block;
+    border: 1px solid black;
+    width: 30%;
+}
+
+/* Le 5ème paragraphe ne s'affiche plus en tant qu'élément de type none */
+.p5{
+    display: none;
+}

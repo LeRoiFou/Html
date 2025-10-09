@@ -1,0 +1,12 @@
+.div1{
+	height: 400px;
+	width: 500px;
+	background-color: #088;
+}
+
+/* Largeur en valeur relative : 50 % de la largeur de l'élément parent : div */
+.p1{
+	height: 100px;
+	width: 50%;
+	background-color: #FA0;
+}

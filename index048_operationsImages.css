@@ -1,0 +1,24 @@
+body{
+	font-family: 'Akaya Telivigala', cursive;
+}
+
+.img1{
+	width: 400px;
+}
+
+.img2{
+	width: 400px;
+	display: block;
+}
+
+.img3{
+	width: 400px;
+	float: left;
+	clear: left;
+}
+
+.img4{
+	padding: 10px;
+	border: 1px solid #CCC;
+	box-shadow: 0px 0px 17px #BBB;
+}

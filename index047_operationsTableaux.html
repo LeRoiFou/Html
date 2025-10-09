@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COURS COMPLET HTML ET CSS [47/71]</title>
+    <link rel="stylesheet" href="./index047_operationsTableaux.css">
+</head>
+
+<body>
+    <a target="_blank"
+        href="https://www.youtube.com/watch?v=X-fVxQ2q8Rk&list=PLwLsbqvBlImHG5yeUCXJ1aqNMgUKi1NK3&index=47">
+        <h1>Opérations sur les tableaux</h1>
+    </a>
+    <!-- colspan pour fusionner des colonnes -->
+    <table>
+        <caption>Liste des inscrits</caption>
+        <tr>
+            <th colspan="3">Prénom</th>
+            <th colspan="2">Adresse email</th>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td colspan="2">Dean</td>
+            <td colspan="2">John.gerald@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Lena</td>
+            <td>Mila</td>
+            <td>Sonya</td>
+            <td>Lena.gerald@gmail.com</td>
+            <td>Mila.gerald@gmail.com</td>
+        </tr>
+    </table>
+
+    <br>
+
+    <!-- rowspan pour fusionner des lignes -->
+    <table>
+        <caption>Liste des inscrits</caption>
+        <tr>
+            <th>Prénom</th>
+            <th>Adresse email</th>
+        </tr>
+        <tr>
+            <td rowspan="2">John</td>
+            <td>gerald@gmail.com</td>
+        </tr>
+        <tr>
+            <td>John@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Lena</td>
+            <td>Lena.gerald@gmail.com</td>
+        </tr>
+    </table>
+</body>
+
+</html>

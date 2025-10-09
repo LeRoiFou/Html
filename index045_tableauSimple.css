@@ -1,0 +1,23 @@
+body{
+	font-family: 'Akaya Telivigala', cursive;
+}
+
+table{
+	/* Colle les bordures entre les cellules */
+	border-collapse: collapse;
+}
+
+td{
+	border: 1px solid black;
+	padding: 10px;
+}
+
+/* pseudo-classe pour les lignes impaires*/
+tr:nth-child(even){
+	background-color: orange;
+}
+
+/* pseudo-classe pour les lignes paires*/
+tr:nth-child(odd){
+	background-color: blue;
+}

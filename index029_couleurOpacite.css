@@ -1,0 +1,13 @@
+h1{
+    color: #800;
+}
+
+.p1{
+    color: rgb(77, 196, 192);
+    opacity: 0.7;
+}
+
+/* rgba : rouge, vert, bleu, taux d'opacité */
+.p2{
+    color:rgba(255, 000, 000, 0.2);
+}

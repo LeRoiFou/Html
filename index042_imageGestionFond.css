@@ -1,0 +1,30 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    
+    /*Insertion de l'image*/
+    background-image: url("images/sky.png"), url("images/earth.png");
+
+    /*au prorata de la largeur de la page*/
+    background-size: 25%, 50%;
+
+    /*-----------Fonctionnalité background-repeat---------------*/
+    /* Image non répétée */
+    background-repeat: no-repeat, no-repeat; 
+    /* Image répétée la largeur de la page sur une seule ligne */
+    /* background-repeat:repeat-x; */
+    /* Image répétée la longueur de la page sur une seule colonne */
+    /* background-repeat:repeat-y; */
+
+    /*-----------Fonctionnalité background-attachment---------------*/
+    /* L'image reste sur la page même si on descend la page */
+    /* background-attachment: fixed; */
+    /* L'image ne reste pas sur la page lorsqu'on descend la page */
+    /* background-attachment: scroll; */
+
+    /*-----------Fonctionnalité background-position---------------*/
+    /* Image fixée en haut à droite de la page */
+    background-position: top right, top left;
+    /* Image fixée en fonction des pixels : 
+    50 px par rapport à la gauche et 400 px par rapport en haut de la page*/
+    /* background-position: 50px 400px; */
+}

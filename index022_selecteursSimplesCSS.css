@@ -1,0 +1,17 @@
+/* Sélecteur simple */
+h1{
+    font-size: 80px;
+    color: red;
+    font-style: italic;
+}
+
+/* Sélecteur simple */
+p{
+    color: blue;
+    font-weight: bold;
+}
+
+/* Sélecteur complexe : regroupage des sélecteurs*/
+h2, h3{
+    color: green;
+}

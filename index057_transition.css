@@ -1,0 +1,16 @@
+body{
+	font-family: 'Akaya Telivigala', cursive;
+}
+
+div{
+	width: 200px;
+	height: 200px;
+	background-color: #06D;
+	transition: 3s width 2s ease, background-color 5s ease;
+}
+
+/* Changement lorsque la souris passe sur l'élément html div */
+div:hover{
+	width: 400px;
+	background-color: #a03;
+}

@@ -1,0 +1,38 @@
+body{
+	font-family: 'Akaya Telivigala', cursive;
+}
+
+.short{
+	width: 200px;
+	height: 200px;
+	background-color: blue;
+	animation-name: chgt-couleur-short;
+	animation-duration: 5s;
+}
+
+@keyframes chgt-couleur-short {
+	from {background-color: blue;}
+	to {background-color: orange;}
+}
+
+.complexe{
+	width: 200px;
+	height: 200px;
+	background-color: blue;
+	position: relative;
+	animation-name: chgt-couleur-complexe;
+	animation-duration: 5s;
+	animation-timing-function: ease;
+	animation-delay: 4s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+@keyframes chgt-couleur-complexe {
+	0%{background-color: green; top: 0px; left: 0px;}
+	25%{background-color: yellow; top: 0px; left: 200px;}
+	50%{background-color: red; top: 200px; left: 200px;}
+	75%{background-color: blue; top: 200px; left: 0px;}
+	100%{background-color: green; top: 0px; left: 0px;}
+}
+

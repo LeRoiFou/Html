@@ -1,0 +1,12 @@
+/* Je suis un commentaire */
+body{
+	background-color: green;
+	margin: 10px;
+}
+
+p{
+	color: red;
+}
+/* Je suis
+un commentaire
+multiligne */

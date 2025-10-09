@@ -1,0 +1,32 @@
+.div1{
+    height: 400px;
+    width: 500px;
+    background-color: #088;
+    border: 20px ridge black;
+    border-radius: 15px;
+    padding: 100px 50px; /* Valeur haut/bas et valeur gauche/droite*/
+    margin: 100px 50px ; /* Valeur haut/bas et valeur gauche/droite*/
+}
+
+.p1{
+    height: 100px;
+    width: 200px;
+    background-color: blue;
+    border-top-width: 2px;
+    border-top-style: dashed;
+    border-top-color: yellow;
+    padding-top: 20px;
+    padding-left: 50px;
+    margin: 0px auto; /* 2 valeurs haut/bas et gauche/droite (auto -> centrage) */
+}
+
+.p2{
+    height: 100px;
+    width: 200px;
+    background-color: blue;
+    border-width: 2px;
+    border-style: inset;
+    border-color: yellow;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}

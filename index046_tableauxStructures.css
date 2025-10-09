@@ -1,0 +1,35 @@
+body{
+	font-family: 'Akaya Telivigala', cursive;
+}
+
+table{
+	border-collapse: collapse;
+}
+
+/* En-tête et pied de page du tableau */
+thead th, tfoot td{
+	background-color: RGB(110, 200, 40);
+	color: #FFF;
+	text-transform: uppercase;
+}
+
+/* Toutes les cellules du tableau */
+td, th{
+	border: 1px solid black;
+	padding: 10px;
+}
+
+/* Ligne d'en-tête */
+th{
+	font-weight: normal;
+}
+
+/* Lignes impaires */
+tr:nth-child(even){
+	background-color: #EEE;
+}
+
+/* Lignes paires */
+tr:nth-child(odd){
+	background-color: #CCC;
+}

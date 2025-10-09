@@ -1,0 +1,28 @@
+body{
+	font-family: 'Akaya Telivigala', cursive;
+}
+
+.div1{
+	background-color: orange;
+	height: 50px;
+	width: 200px;
+	z-index: 100;
+	float: right;
+	clear: left; /*au dessus des éléments p*/
+	overflow: scroll; /*barre de défilement du contenu qui dépasse et masqué*/ 
+}
+
+h1{
+	z-index: 1000; 
+	float: left;
+	
+}
+
+.p1{
+	left: 50px;
+	float: right;
+}
+
+.p2{
+	clear: right; /*en dessous du paragraphe p1*/
+}

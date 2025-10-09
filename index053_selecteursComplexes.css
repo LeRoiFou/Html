@@ -1,0 +1,30 @@
+body{
+	font-family: 'Akaya Telivigala', cursive;
+}
+
+/* Sélecteur qui s'applique sur tous les éléments html (ici tous les éléments
+sont en italique) */
+*{
+	font-style: italic;
+}
+
+/* Sélecteur qui s'applique à certains éléments html (ici les éléments 
+des classes h1 et p1) */
+.h1, .p1{
+	border: 1px solid black;
+}
+
+/* Sélecteur qui s'applique dans l'élément html p contenu dans la classe div1 */
+.div1 p{
+	background-color: rgb(234, 255, 0);
+}
+
+/* Pour tous les sélécteurs h2 contenus dans les div... */
+div > h2 {
+	color: blue;
+}
+
+/* Pour tous les sélecteurs p qui disposent d'une classe p2 */
+p[class="p2"]{
+	color: rgb(32, 221, 26);
+}

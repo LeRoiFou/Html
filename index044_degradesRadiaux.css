@@ -1,0 +1,42 @@
+body{
+	font-family: 'Akaya Telivigala', cursive;
+}
+
+.div1{
+	float: left;
+	width: 400px;
+	height: 300px;
+	background: linear-gradient(left, blue 10%, purple 30%, red 60%);
+	background: linear-gradient(right, blue 10%, purple 30%, red 60%);
+	background: linear-gradient(to right, blue 10%, purple 30%, red 60%);
+}
+
+.div2{
+	float: right;
+	width: 400px;
+	height: 300px;
+	background: radial-gradient(circle, blue 10%, purple 30%, red 60%);
+	background: radial-gradient(circle, blue 10%, purple 30%, red 60%);
+}
+
+.div3{
+	margin-top: 10px;
+	float: left;
+	width: 400px;
+	height: 300px;
+	background: radial-gradient(
+		20% 40%, closest-side, blue 10%, purple 30%, red);
+	background: radial-gradient(
+		closest-side at 20% 40%, blue 10%, purple 30%, red);
+}
+
+.div4{
+	margin-top: 10px;
+	float: right;
+	width: 400px;
+	height: 300px;
+	background: radial-gradient(
+		20% 40%, farthest-side, blue 10%, purple 80%, red);
+	background: radial-gradient(
+		farthest-side at 20% 40%, blue 10%, purple 80%, red);
+}

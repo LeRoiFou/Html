@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<meta charset="UTF-8">
+	<title>COURS COMPLET HTML ET CSS [63/71]</title>
+	<link rel="stylesheet" href="/index063_formulairesOrganisation.css">
+</head>
+
+<body>
+	<a href="https://www.youtube.com/watch?v=jtmaFUs-HVw&list=PLwLsbqvBlImHG5yeUCXJ1aqNMgUKi1NK3&index=64">
+		<h1>Organiser et mettre en forme un formulaire</h1>
+	</a>
+	<form action="traitement.php" method="post">
+		<fieldset id="section1">
+			<legend>Informations personnelles : </legend>
+			<label for="prenom">Entrer votre prénom</label>
+			<input type="text" name="prenom" id="prenom"><br><br>
+			<label for="nom">Entrer votre nom</label>
+			<input type="text" name="nom" id="nom"><br><br>
+			<label for="pseudo">Choisser votre pseudonyme</label>
+			<input type="text" name="pseudo" id="pseudo"><br><br>
+		</fieldset>
+		<br>
+
+		<fieldset id="section2">
+			<legend>Autres informations</legend>
+			Quels sont vos loisirs ?<br>
+			<input type="checkbox" name="hobbies" value="informatique" id="inf">
+			<label for="inf">Informatique</label>
+			<input type="checkbox" name="hobbies" value="sport" id="sport">
+			<label for="sport">Sport</label>
+			<input type="checkbox" name="hobbies" value="voyages" id="voyages">
+			<label for="voyages">Voyages</label>
+			<input type="checkbox" name="hobbies" value="musique" id="musique">
+			<label for="musique">Musique</label> <br><br>
+		</fieldset>
+		<br>
+
+		<input type="submit">
+	</form>
+
+</body>
+
+</html>

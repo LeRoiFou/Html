@@ -1,0 +1,14 @@
+/* Tous les textes de l'élément 'body' sont affectés */
+body {
+	color: blue;
+}
+
+/* Tous les sélecteurs 'p' sont affectés */
+p {
+	color: red;
+}
+
+/* Tous les sélecteurs avec l'ID para sont affectés */
+#para{
+	color: green;
+}

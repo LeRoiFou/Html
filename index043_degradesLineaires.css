@@ -1,0 +1,15 @@
+.div1{
+    /* Dégradé qui part de la droite : rouge puis orange puis ... */
+    /* background: -webkit-linear-gradient(top left, red, orange, blue); */
+
+    /* Dégradé en degrés de bas en haut*/
+    /* background: -webkit-linear-gradient(
+        90deg, rgb(0, 136, 54), orange, yellow, blue); */
+
+    /* Dégradé qui part en haut à droite : rouge puis orange puis ... */
+    /* background: linear-gradient(to bottom right, red, orange, blue); */
+
+    /* Dégradé par transparence*/
+    background: -webkit-linear-gradient(
+        rgba(255, 000, 000, 0.9), rgba(255, 000, 000, 0.1));
+}

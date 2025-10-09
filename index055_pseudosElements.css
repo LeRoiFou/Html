@@ -1,0 +1,19 @@
+body{
+	font-family: 'Akaya Telivigala', cursive;
+}
+
+/* Sélection de la 1ère lettre contenue dans un élément html de type block */
+p::first-letter{
+	font-size: 30px;
+	color: blueviolet;
+}
+
+/* Séléction de la 1ère ligne contenue dans un élément html de type block */
+p::first-line{
+	font-weight: bolder;
+}
+
+/* Sélection de la partie sélectionnée par l'utilisateur */
+p::selection{
+	background-color: green;
+}
