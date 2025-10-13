@@ -1,0 +1,17 @@
+body {
+  width: 100%;
+}
+
+div,
+p {
+  width: 50%;
+  border: 1px solid black;
+}
+
+div {
+  background-color: #08b;
+}
+
+p {
+  background-color: #0b8;
+}
