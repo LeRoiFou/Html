@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="indexA002_Formulaires.css?=v001">
+</head>
+
+<body>
+    <h1>Formulaire</h1>
+
+    <form action="/" method="post">
+
+        <fieldset id="contact-data">
+            <legend>Vos coordonnées</legend>
+
+            <label for="company">Dénomination sociale</label>
+            <input type="text" name="company" id="company" required="required"><br>
+
+            <label for="siren">SIREN</label>
+            <input type="number" name="siren" id="siren" max="999999999" required="required"><br>
+
+            <label for="adress">Adresse</label>
+            <input type="text" name="adress" id="adress" required="required"><br>
+
+            <label for="mail">Adresse e-mail</label>
+            <input type="email" name="mail" id="mail" required="required"><br>
+
+            <label for="tel">Téléphone</label>
+            <input type="number" name="tel" id="tel"><br>
+
+            <label for="contact">Contact</label>
+            <input type="text" name="contact" id="contact" required="required"
+                title="Prénom et nom de la personne à contacter">
+        </fieldset>
+
+        <fieldset id="request">
+            <legend>Votre demande</legend>
+
+            <label for="object">Objet de la demande</label>
+            <select name="object" id="object">
+                <optgroup label="Anomalies">
+                    <option value="error">Erreur affichée</option>
+                    <option value="load">Problème de chargement</option>
+                    <option value="result">Absence de résultat</option>
+                </optgroup>
+                <optgroup label="Autre demande">
+                    <option value="connexion">Demande de connexion</option>
+                    <option selected="selected" value="contact">Demande de contact</option>
+                    <option value="other">Divers</option>
+                </optgroup>
+            </select><br>
+
+            <div class="comments">
+                <label for="comments">Vos commentaires</label>
+                <textarea name="comments" id="comments"></textarea>
+            </div>
+        </fieldset>
+
+        <input type="submit" value="Valider">
+
+    </form>
+
+
+</body>
+
+</html>
